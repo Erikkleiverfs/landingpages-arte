@@ -58,7 +58,6 @@ ul{
 
 ul > li{
     display: inline;
-    padding: 3px;
 }
 
 ul > li > a{
