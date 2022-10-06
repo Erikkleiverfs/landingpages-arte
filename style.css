@@ -38,12 +38,12 @@ header{
     align-items: center;
     margin: auto;
     width: 100vw;
-    height: 210px;
+    height: 180px;
     background-color:#FFFED8;
 }
 
 #logo h1{
-    padding-top: 20px;
+    padding-top: 40px;
     font-weight: normal;
     font-family: 'Bebas Neue', cursive;
     color:  #D91828;
