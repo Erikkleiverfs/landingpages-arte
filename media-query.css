@@ -41,6 +41,7 @@ Grandes telas: acima de 1200px */
        }
     
        aside > p{
+        font-size: 1em;
         width: 60vw;
        }
 
@@ -57,6 +58,12 @@ Grandes telas: acima de 1200px */
 }
 
 @media screen and (min-width: 1200px) {/* grandes telas */
+
+    main{
+        padding: 0px 20px;
+        display: flex;
+        flex-direction: row;
+    }
     article img{
         width: 500px;
         padding: 0px 0px 30px 0px;
@@ -67,6 +74,7 @@ Grandes telas: acima de 1200px */
        }
     
        aside > p{
+        font-size: 1em;
         width: 50vw;
        }
      
