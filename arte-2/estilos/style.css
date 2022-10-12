@@ -3,20 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/* versão mobile first */
-
 /* 
 Fontes
 font-family: 'Bebas Neue', cursive; 
 font-family: 'Open Sans', sans-serif;*/
-
-/* cores
-vermelho #D91828 
-roxo #4D4C73
-verde #3FBF48
-amarelo #F2BE7E
-preto #262626
-*/
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,113 +17,78 @@ preto #262626
 
 html{
     width: 100vw;
-    height: 100vh;
-    font-size: 1.1em;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 header{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100vw;
-    background-color: #FFFED8;
-    padding-bottom: 20px;
+    height: 190px;
+    color: white;
+    background-color: #1d1d27;
 }
 
 header > h1{
-    padding-top: 40px;
-    font-weight: normal;
-    font-family: 'Bebas Neue', cursive;
-    color:  #D91828;
-    letter-spacing: 2px;
+    font-size: 2.3em;
+    padding: 50px;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
 }
 
-ul{
-    width:100%;
-    text-align: justify;
-    display: flex;
+menu ul{
+    background-color: #0A0A12;
+    text-align: center;
+    list-style-type: none;
 }
 
-ul > li{
-    display: inline;
+menu > ul > li{
+    padding: 0px 10px;
+    display: inline-block;
 }
 
-ul > li > a{
-    font-size: 0.8em;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
+menu > ul > li > a{
+    background-color: white;
+    font-family: 'roboto', sans-serif;
     text-decoration: none;
-    display: inline;
-    color: #F2BE7E;
-    padding: 1px 5px 1px 5px;
-    border-radius: 1px;
-    transition: 0.2s;
-    color: #262626;
+    color: black;
+    border-radius: 2px;
 }
-
-ul > li > a:hover{
-    font-weight: normal;
-    color: #FFFED8;
-    background-color:  #4D4C73;
+menu > ul > li > a:hover{
+    background-color: black;
+    color: white;
 }
 
 main{
-    width: 100%;
-    margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #D91828;
-    color: white;
-    padding-bottom: 55px;
-}
-
-article img{
-    width: 80%;
-    padding: 30px;
     display: flex;
+    flex-direction: column;
     margin: auto;
-    width: 100vw;
+    width: 90vw;
 }
 
+article{
+
+}
+
+article > img{
+    display: block;
+    margin: auto;
+}
 
 aside{
-    color:#FFFED8 ;
-    background-color:#D91828;
-    width: 75vw;
+    display: block;
     margin: auto;
-}
-
-aside > h1{
-    color: #FFFED8;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-}
-
-aside > h2{
-    color: #FFFED8;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1em;
-}
-
-aside > p{
-    font-size: 0.9em;
-    color: #FFFED8 ;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 80vw;
-    text-indent: 10px;
-    text-align: justify;
-    margin: auto;
-    padding-top: 15px;
 }
 
 footer{
-    color:#262626;
-    padding: 10px;
-    background-color: #FFFED8;
     text-align: center;
+    background-color:  #0A0A12;
+    color: white;
+    padding: 20px;
 }
 
 footer a{
     text-decoration: none;
-    color: #262626;
+    color: white;
 }
